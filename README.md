@@ -14,6 +14,18 @@ openocd
 It might be necessary to also install the `arm-none-eabi-newlib` (or a similarly named) package.
 **No** environment variables need to be set.
 
+## Build in VS Code
+
 We then recommend using VS Code with the CMake extension.
 There, select an `unspecified/__unspec__` kit for configuration.
 The Pico-SDK will handle the necessary cross compilation.
+
+## Build via CLI
+
+To build via CLI, use the following commands:
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+```
