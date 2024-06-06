@@ -5,12 +5,12 @@ To build this project, install the required packages listed in
 It is **not** necessary to download and run the `pico_setup.sh`.
 CMake will take care of that later.
 Currently (`2024-06-03`), these packages are:
-```
-arm-none-eabi-gcc
-gdb-multiarch
-cmake
-openocd
-```
+
+- `arm-none-eabi-gcc`
+- `gdb-multiarch`
+- `cmake`
+- `openocd`
+
 It might be necessary to also install the `arm-none-eabi-newlib` (or a similarly named) package.
 **No** environment variables need to be set.
 
